@@ -14,6 +14,7 @@
             <div class="header_third search_section menu_buttom cf">
                 <div class="menu_icon">
                     <i class="fas fa-bars"></i>
+                    <i class="fas fa-times" style="display: none;"></i>
                 </div>
                 <div class="search_box"><?php echo get_search_form(); ?></div>
 
