@@ -15,6 +15,16 @@ jQuery(function($) {
         controlNav: false
     });
 
+    $('.flexslider').flexslider({
+        animation:'slide',
+        //smoothHeight:true,
+        prevText:"<i class=\"fas fa-chevron-left\"></i>",
+        nextText:"<i class=\"fas fa-chevron-right\"></i>",
+        controlNav: false
+    });
+
+    $('.flexslider .flex-viewport').css('overflow', 'visible');
+
     $('.menu_icon i.fa-bars').on('click', function () {
         $('.menu_icon i.fa-bars').css('display', 'none');
         $('.menu_icon i.fa-times').css('display', 'inline-block');
